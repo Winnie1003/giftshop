@@ -1,4 +1,4 @@
-/*广告标题样式*/
+﻿/*广告标题样式*/
 *{margin:0px;padding:0px;font-family:"微软雅黑"；}
 /*引入阿里字体，换地址！！！*/
 @font-face {font-family: 'iconfont';
@@ -13,6 +13,7 @@ url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 #top{position:relative;height:100px}
 #top a.adv{width:100%;height:100px;background:url("../images/advbg.png");display:block;text-align:center;}
 #top img.close{float:right;position:absolute;right:0;top:0;cursor:pointer;}
+
 /*header标题样式*/
 #header{width:1000px;height:70px;margin:0 auto;margin-top:30px;}
 #header .Logo{width:220px;height:70px;float:left;}
