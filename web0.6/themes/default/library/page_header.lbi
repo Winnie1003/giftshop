@@ -1,0 +1,58 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="TopMain">
+<!--top adv start-->
+ <div id="Top">
+	<a href="#" class="adv" target="_blank"> 
+		<img src="images/adv.jpg" /> 
+	</a>
+	 <img src="images/close.png"  class="close"/>
+</div>
+<!--top  adv stop-->
+
+
+<!--标题开始-->
+<div id="Header">
+   <div class="Logo"><a href="#"><img src="images/logo.png" height="50px"></a></div>
+   <div class="Search">
+      <form>
+       <input type="text" class="sea">
+       <input type="submit" class="but" value="">
+      </form>
+   </div>
+
+   <!--Search end-->
+	<!--User begin-->
+	<div class="User">
+
+   <!--用户登录+注册
+		<a href=""><font class="iconfont">&#xe60b;</font>登录</a>
+		<a href=""><font class="iconfont">&#xe60a;</font>注册</a>-->
+		
+		
+		<!--用户登录后效果-->
+		<span>您好，Winnie, 欢迎您回来！<a href="">用户中心</a>|<a href="">退出</a> </span>
+
+
+
+		<a href=""><font class="iconfont">&#xe646;</font>加入购物车</a>
+
+	</div>
+	<!--User end-->
+</div>
+<!--标题结束-->
+</div>
+
+<!--导航开始,滚动到一定高度，给它加固定-->
+<div id="Nav">
+    <ul>
+        <li class="first"><font class="iconfont">&#xe627;</font>全部商品分类
+       
+        </li>
+        <li><a href="../index.php"{if $navigator_list.config.index eq 1} class="cur"{/if}>{$lang.home}</a></li>
+  		<!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+        <li class="Fnav"><a href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if} {if $nav.active eq 1} class="cur"{/if}>									{$nav.name}</a></li>
+ 		<!-- {/foreach} -->
+        <li class="last"></li>
+    </ul>
+</div>
+<!--导航结束-->
