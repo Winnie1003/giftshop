@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+ <!--声明当前页面编码集（中文编码<gbk,gb2312>,国际编码<utf-8>）-->
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <!--声明当前页面的三要素-->
+ <title>产品推荐页面</title>
+ <link href="themes/default/style.css" type="text/css" rel="stylesheet" />
+ <link href="themes/default/css/web.css" type="text/css" rel="stylesheet" />
+
+ <meta name="keywords" content="关键词,关键词">
+ <meta name="description" content="">
+
+</head>
+
+<body>
+
+<!--调用头部文件-->
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<!--内容页主体开始-->
+ <div id="Prodetail">
+    <!--产品放大镜效果开始-->
+	<div class="det_ProImg">
+	   <div class="proshow">
+
+	      <!--小图展示 start-->
+	      <div class="showsmall">
+          <!-- {if $pictures}-->
+              <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="450" height="450" />
+             <!-- {else} -->
+             <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="450" height="450" />
+           <!-- {/if}-->
+           
+		    <span class="move"></span>
+		    <span class="shade"></span>
+		  </div>
+          <!--小图展示 end-->
+
+		  <!--按扭 start-->
+		  <div class="but">
+				<!-- #BeginLibraryItem "/library/goods_gallery.lbi" --><!-- #EndLibraryItem -->
+		  </div>
+		  <!--按扭 end-->
+
+		  <!--大图 start-->
+		  <div class="showbig">
+             <!-- {if $pictures}-->
+             <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="450" height="450" />
+             <!-- {else} -->
+             <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="450" height="450" />
+           	 <!-- {/if}-->
+          </div>
+		  <!--大图 end-->
+
+
+	   </div>
+
+
+	</div>
+	<!--产品放大镜效果end-->
+
+    <!--产品详情开始-->
+	<div class="det_Proinfo">
+      <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
+      
+      <h1>{$goods.goods_style_name} <!--商品标题--></h1>
+        <p>
+            <!-- {if $cfg.show_goodssn} 显示商品货号-->
+            <p>{$lang.goods_sn}{$goods.goods_sn}</p>
+            <!-- {/if} -->
+            <!-- {if $goods.goods_number neq "" and $cfg.show_goodsnumber} 商品库存-->
+            <!-- {if $goods.goods_number eq 0} -->
+            <p>{$lang.goods_number}
+            <font color='red'>{$lang.stock_up}</font></p>
+            <!-- {else} -->
+            <p>{$lang.goods_number}
+          {$goods.goods_number} {$goods.measure_unit}</p>
+          <!-- {/if} -->
+          <!-- {/if} -->
+        </p>
+		<p>
+           <!-- {if $goods.goods_brand neq "" and $cfg.show_brand} 显示商品品牌-->
+           {$lang.goods_brand}<a href="{$goods.goods_brand_url}" >{$goods.goods_brand}</a>
+           <!--{/if}-->        
+        </p>
+        <p>
+           <!-- {if $cfg.show_goodsweight} 商品重量-->
+           {$lang.goods_weight}{$goods.goods_weight}
+           <!-- {/if} --> 
+        </p>
+		<p class="bor">
+                <!-- {if $cfg.show_marketprice} 市场价格-->
+               {$lang.market_price}<font class="market" style="font-size:16px;">{$goods.market_price}</font>
+               <!-- {/if} -->
+               <!--本店售价-->
+               {$lang.shop_price}<font class="shop" id="ECS_SHOPPRICE" style="font-size:20px;">{$goods.shop_price_formated}</font>
+               <!-- {foreach from=$rank_prices item=rank_price key=key} 会员等级对应的价格-->
+               {$rank_price.rank_name}：<font class="shop" id="ECS_RANKPRICE_{$key}" style="font-size:16px;">{$rank_price.price}</font>
+               <!--{/foreach}-->
+        </p>
+		<p class="bor">消费保障：&nbsp;&nbsp;<img src="images/zp.png" align="absmiddle" />&nbsp;&nbsp;正品保障 
+					&nbsp;&nbsp;<img src="images/bz.png" align="absmiddle" />&nbsp;&nbsp;三十天退货  货到付款</p>
+		<p>{$lang.number} : <input name="number" type="text" id="number" value="1" size="6" onblur="changePrice()" style="border:1px solid #ccc; "/></p>
+        <!--商品总价-->
+        <p>{$lang.amount}：<font id="ECS_GOODS_AMOUNT" class="shop"></font></p>
+
+        
+            
+        <!--商品颜色开始-->  
+          <!-- {* 开始循环所有可选属性 *} -->
+          <p> 
+          <!-- {foreach from=$specification item=spec key=spec_key} -->
+          {$spec.name}:
+            <!-- {* 判断属性是复选还是单选 *} -->
+                        <!-- {if $spec.attr_type eq 1} -->
+                          <!-- {if $cfg.goodsattr_style eq 1} -->
+                          
+                            <!-- {foreach from=$spec.values item=value key=key} -->
+                            <label for="spec_value_{$value.id}">
+                            <input type="radio" name="spec_{$spec_key}" value="{$value.id}" id="spec_value_{$value.id}" {if $key eq 0}checked{/if} onclick="changePrice()" />
+                            {$value.label} [{if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if} {$value.format_price|abs}] </label>
+                            <!-- {/foreach} -->
+                            <br/>
+                            <input type="hidden" name="spec_list" value="{$key}" />
+                            <!-- {else} -->
+                            <select name="spec_{$spec_key}" onchange="changePrice()">
+                              <!-- {foreach from=$spec.values item=value key=key} -->
+                              <option label="{$value.label}" value="{$value.id}">{$value.label} {if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if}{if $value.price neq 0}{$value.format_price}{/if}</option>
+                              <!-- {/foreach} -->
+                            </select>
+                            <input type="hidden" name="spec_list" value="{$key}" />
+                            
+                          <!-- {/if} -->
+                        <!-- {else} -->
+                          <!-- {foreach from=$spec.values item=value key=key} -->
+                          <label for="spec_value_{$value.id}">
+                          <input type="checkbox" name="spec_{$spec_key}" value="{$value.id}" id="spec_value_{$value.id}" onclick="changePrice()" />
+                          {$value.label} [{if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if} {$value.format_price|abs}] </label><br />
+                          <!-- {/foreach} -->
+                          <input type="hidden" name="spec_list" value="{$key}" />
+                        <!-- {/if} -->
+          <!-- {/foreach} -->
+          </p>
+          <!-- {* 结束循环可选属性 *} -->
+        <!--商品颜色结束-->  
+        
+        
+        
+        
+		<p class="but">
+			<a href="javascript:addToCart({$goods.goods_id})"><img src="images/Webcar.png" /></a>
+			<a href="javascript:collect({$goods.goods_id})"><img src="images/Websc.png" /></a>
+		</p>
+		</form>
+	</div>
+    <!--产品详情结束-->
+ </div>
+
+
+ <!--推荐产品开始-->
+<div id="IntroProduct">
+	<p class="ti">推荐产品</p>
+	<ul>
+		<li>
+			<a href="#"><img src="images/cake2.jpg" width="220px" height="220" /></a>
+			<p><a href="#">创意生日蛋糕</a></p>
+			<P class="money"><font>￥19.9</font>  <span>389人购买</span></p>
+		</li>  
+		<li>
+			<a href="#"><img src="images/cake7.jpg" width="220px" height="220" /></a>
+			<p><a href="#">创意生日蛋糕</a></p>
+			<P class="money"><font>￥19.9</font>  <span>389人购买</span></p>
+		</li>  
+		<li>
+			<a href="#"><img src="images/cake9.jpg" width="220px" height="220" /></a>
+			<p><a href="#">创意生日蛋糕</a></p>
+			<P class="money"><font>￥19.9</font>  <span>389人购买</span></p>
+		</li>  
+		<li>
+			<a href="#"><img src="images/cake12.jpg" width="220px" height="220" /></a>
+			<p><a href="#">创意生日蛋糕</a></p>
+			<P class="money"><font>￥19.9</font>  <span>389人购买</span></p>
+		</li>  
+ 
+	</ul>
+</div>
+<!--推荐产品结束-->
+
+<!--产品详情开始-->
+
+<div id="ProductInfo">
+	<ul class="sel">
+		<li class="active">商品描述<span></span></li>
+		<li>商品属性 <span></span></li>
+		<li>用户评论<span></span></li>
+		<li>商品购买记录<span></span></li>
+	</ul>
+
+	<div id="ProductSelect">
+		<div class="selCon" style="display:block;">商品描述</div>
+		<div class="selCon">商品属性</div>
+		<div class="selCon">用户评论</div>
+		<div class="selCon">商品购买记录</div>
+	</div>
+	
+
+</div>
+<!--产品详情结束-->
+
+
+
+<!--内容页主体结束-->
+
+
+<!--调用底部文件-->
+ <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem --> 
+
+
+
+  {* 包含脚本文件 *}
+{insert_scripts files='jquery.js,index.js'}
+ {* 包含脚本文件 *}
+{insert_scripts files='common.js'}
+
+</body>
+
+</html>

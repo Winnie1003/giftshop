@@ -1,0 +1,95 @@
+<?php
+$data = array (
+  0 => 
+  array (
+    'cat_id' => '16',
+    'cat_name' => '生日礼物',
+    'measure_unit' => '个',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '4',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  1 => 
+  array (
+    'cat_id' => '18',
+    'cat_name' => '商务礼物',
+    'measure_unit' => '件',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  2 => 
+  array (
+    'cat_id' => '17',
+    'cat_name' => '节日礼物',
+    'measure_unit' => '件',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '5',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  3 => 
+  array (
+    'cat_id' => '12',
+    'cat_name' => '个性定制',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '6',
+  ),
+  4 => 
+  array (
+    'cat_id' => '20',
+    'cat_name' => '鲜花',
+    'measure_unit' => '束',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  5 => 
+  array (
+    'cat_id' => '21',
+    'cat_name' => '蛋糕',
+    'measure_unit' => '个',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '1',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  6 => 
+  array (
+    'cat_id' => '22',
+    'cat_name' => '七夕节礼物',
+    'measure_unit' => '',
+    'parent_id' => '17',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '5',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '6',
+  ),
+);
+?>
