@@ -1,0 +1,225 @@
+/*内页推荐样式 ProIntroCon*/
+#ProIntro{width:100%;height:170px;background:#f1f1f1;}
+#ProIntro .ProIntroCon{width:1200px;height:170px;margin:0 auto;}
+#ProIntro .ProIntroCon .HotIntro{width:950px;height:170px;float:left;}
+#ProIntro .ProIntroCon .HotIntro .hotList{width:860px;height:170px;float:right;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl{width:244px;height:115px;background:#fff;
+                               margin:18px 10px 0px;float:left;padding:10px;box-shadow:2px 2px 3px #ddd;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl dt{width:110px;height:96px;float:left;padding-top:10px;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl dd{width:130px;float:right;font-size:12px;color:#666;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl dd.money{padding:15px 0px;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl dd.money font{color:#f5527a; font-size:18px;}
+#ProIntro .ProIntroCon .HotIntro .hotList dl dd.buy a{width:75px;height:23px;  background:#f5f5f5; display:block;
+					border:1px solid #e6e6e6;border-radius:2px; line-height:23px; text-align:center;
+					color:#797979;} 
+
+
+#ProIntro .ProIntroCon .newsIntro{width:220px;height:170px;float:right;}
+#ProIntro .ProIntroCon .newsIntro img.imgNew{float:left;}
+#ProIntro .ProIntroCon .newsIntro ul{width:165px;height:170px;float:right;padding-top:10px;}
+#ProIntro .ProIntroCon .newsIntro ul li{font-size:12px;color:#666;line-height:30px;}
+#ProIntro .ProIntroCon .newsIntro ul li a{color:#666;}
+#ProIntro .ProIntroCon .newsIntro ul li a:hover{color:#f53e6d;}
+
+
+/*面包屑导航样式*/
+.proLogo{width:1200px;height:40px;margin:20px auto 0px;}
+.proLogo a{color:#666;}
+.proLogo a:hover{color:#f53e6d;}
+
+
+/*礼物综合搜综分类样式*/
+#searchType{width:1200px;border:1px solid #ddd;margin:0px auto;}
+#searchType h3{height:40px;background:#f5f5f5; border-bottom:1px solid #ddd;text-indent:10px;
+               font-size:16px; color:#666; font-weight:100;/*文字不加粗*/ line-height:40px;}
+#searchType dl{width:95%;margin:10px auto;border-bottom:1px dotted #ddd;}
+#searchType dl dt{width:8%;height:40px;float:left;font-size:14px;color:#666;
+                line-height:40px;font-weight:bold;}
+#searchType dl dd{width:90%;float:right;font-size:12px;line-height:40px;}
+#searchType dl dd a{margin:0px 5px;padding:5px 8px;color:#666;}
+#searchType dl dd a:hover{background:#f53e6d;color:#fff;}
+#searchType dl dd a.all{background:#f53e6d;color:#fff;}
+
+
+
+/*产品列表展示样式*/
+#ProductList{width:1200px;margin:30px auto 0px;}
+#ProductList .titshow{border:1px solid #ddd;background:#f5f5f5;line-height:40px;text-indent:10px;font-size:16px; color:#666;}
+#ProductList ul li{width:210px;height:310px; border:1px solid #ddd; float:left;margin:10px 13px;box-shadow:0px 2px 5px #ddd; text-align:center;}
+#ProductList ul li:hover{border:1px solid #f53e6d;}
+#ProductList ul li h3.showtit{font-weight:100; font-size:16px;}
+#ProductList ul li p{width:160px;line-height:25px; margin:10px auto; font-size:12px;}
+#ProductList ul li p span{width:80px;height:25px; background:#626262;color:#fff; 
+					text-align:center;display:inline-block;}
+#ProductList ul li p a{width:80px;height:25px; background:#ed145b;color:#fff;
+					text-align:center; display:inline-block;}
+#ProductList ul li p font{color:#f53e6d;}
+
+
+
+
+/*产品详细页样式 */
+#Prodetail{width:1200px;height:540px;margin:30px auto;}
+#Prodetail .det_ProImg{width:450px;height:540px;float:left;}
+#Prodetail .det_Proinfo{width:690px;height:540px;float:right;}
+
+/*产品详细页放大镜效果*/
+#Prodetail .det_ProImg .proshow{width:450px;height:540px;position:relative;}
+#Prodetail .det_ProImg .proshow .showsmall{width:450px;height:450px;position:relative;}
+#Prodetail .det_ProImg .proshow .but{width:450px;height:80px;margin-top:10px;}
+#Prodetail .det_ProImg .proshow .showbig{width:300px;height:300px;position:absolute;left:460px;top:0px;background:red;overflow:hidden;display:none;}
+
+#Prodetail .det_ProImg .proshow .showbig img{position:absolute;/*一定要绝对定位的元素才能进行位置的移动*/}
+#Prodetail .det_ProImg .proshow .but img{float:left;border:2px solid  #ddd; margin:0px 10px;}
+#Prodetail .det_ProImg .proshow .but img.active{border:2px solid #C00;}
+#Prodetail .det_ProImg .proshow .showsmall span.shade{width:450px;height:450px; background:red; 
+              display:block;position:absolute; top:0px; left:0px;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+#Prodetail .det_ProImg .proshow .showsmall span.move{width:120px;height:150px; border:1px solid #000; display:block;display:none;
+				position:absolute; left:10px; top:10px; background:#fff;filter:alpha(opacity=0.3);-moz-opacity:0.3;opacity:0.3;}
+
+
+#Prodetail .det_Proinfo h1{font-size:24px;line-height:35px;}
+#Prodetail .det_Proinfo p{color:#000; font-size:14px; line-height:35px; }
+#Prodetail .det_Proinfo p font{font-size:24px; color:#ff7632;padding-right:20px;}
+#Prodetail .det_Proinfo p.bor{border-bottom:1px dotted #ddd; margin-bottom:10px;}
+#Prodetail .det_Proinfo p a.jf{float:right; color:#000; }
+#Prodetail .det_Proinfo p input.num{width:50px;height:20px; border:1px solid #ddd;}
+#Prodetail .det_Proinfo p.but{padding-top:20px;}
+#Prodetail .det_Proinfo p.but img{margin-right:20px;}
+
+
+/*推荐产品样式*/
+#IntroProduct{width:1200px; height:370px; margin:0px auto; border:1px solid #ddd;}
+#IntroProduct p.ti{font-size:18px; color:#f53e6d; border-bottom:1px solid #ddd;
+				line-height:45px; margin-bottom:20px; text-indent:20px;}
+#IntroProduct ul li{width:220px;float:left; box-shadow:0px 1px 2px #ddd;
+				margin:0px 35px; padding:5px;}
+#IntroProduct ul li p{font-size:14px; color:#666; line-height:30px;}
+#IntroProduct ul li p a{color:#666;}
+#IntroProduct ul li p.money font{color:#f53e6d; font-weight:bold;}
+#IntroProduct ul li p.money span{float:right;}
+
+
+
+/*产品详情样式*/
+#ProductInfo{width:1200px;  margin:50px auto;}
+#ProductInfo ul.sel{height:50px;border-bottom:1px solid red;}
+#ProductInfo ul.sel li{height:50px; float:left; width:120px;text-align:center;
+				line-height:50px; font-size:14px; position:relative;}
+#ProductInfo ul.sel li span{width:100%;height:1px; background:#fff; display:block;
+				position:absolute; left:0px; bottom:-1px;display:none;}			
+#ProductInfo ul.sel li.active{border:1px solid red; border-top:2px solid red; height:48px;
+				border-bottom:0px; line-height:48px;}
+#ProductInfo ul.sel li.active span{display:block;}
+
+#ProductInfo #ProductSelect div{width:100%; margin-top:50px;min-height:500px; display:none;}
+
+
+
+
+
+/*订单支付路径样式 */
+
+#order_address{width:1198px;height:100px;border:1px solid #ccc;margin:5px auto;border-radius:5px;background:#DDD;}
+#order_address ul{width:1000px;height:40px;margin:30px auto 0px;}
+#order_address ul li{width:400px;height:40px;float:left;}
+#order_address ul li.last{width:190px;}
+#order_address ul li span{float:left;display:block;}
+#order_address ul li span.but{width:36px;height:36px;background:#ddd;border:2px solid #666;text-align:center;
+                              line-height:36px;border-radius:20px;}
+#order_address ul li span.txt{width:70px;height:40px;font-size:14px;line-height:40px;text-align:center;}
+#order_address ul li span.txt2{width:110px;}
+#order_address ul li span.line{width:290px;height:3px;background:#666;margin-top:19px;}
+#order_address ul li span.line2{width:250px;}
+
+#order_address ul li span.but_active{background:#ffccff;border:2px solid #ff3399;color:#ff3399;}
+#order_address ul li span.txt_active{color:#ff3399;}
+#order_address ul li span.line_active{background:-webkit-gradient(linear,left center,right center,from(#ff3399),to(#666));}
+#order_address ul li span.line_active2{background:#ff3399;}
+
+
+/*订单产品列表样式*/
+#order_List{width:1198px;margin:30px auto;}
+#order_List ul.tit{border:1px solid #ccc;height:40px; background:#eee;}
+#order_List ul.tit li{width:140px;height:40px;font-size:16px;float:left;line-height:40px;text-align:center;}
+#order_List ul.tit li.first{width:220px;padding-right:80px;}
+#order_List ul.List{border-bottom:1px dotted #ddd; height:200px; }
+#order_List ul.List li{width:140px; float:left;height:200px;font-size:14px;text-align:center;line-height:200px;}
+#order_List ul.List li.first{width:220px; padding-right:80px; line-height:25px; }
+#order_List ul.List li.first p{font-size:14px;text-align:center;line-height:25px;}
+#order_List ul.List li input.inputBg{width:30px;height:30px; border:1px solid #ddd; text-align:center;}
+#order_List ul.List li a.f6{color:red; font-size:14px; text-decoration:underline;}
+
+
+/*订单结束样式*/
+#order_end{width:1198px;width:1px solid #ccc; margin:30px auto; font-size:14px;line-height:70px; text-indent:30px;}
+#order_end font{font-size:18px;color:#ff3399;}
+#order_end input{width:100px;height:35px;background:#ff3366;color:#fff;border-radius:2px;float:right; margin:17px 10px 0px 0px;}
+#order_end a.go{float:left;}
+#order_end a.end{float:right; margin-right:10px;}
+
+
+
+
+/*商品列表样式 */
+.goodsList{width:1198px;border:1px solid #ccc;margin:30px auto;}
+.goodsList h3{height:35px;background:#ddd; font-size:14px; font-family:"微软雅黑";
+			font-weight:100;line-height:35px; text-indent:20px;}
+.goodsList h3 a{float:right;padding-right:10px;color:red;}
+.goodsList h3 a:hover{text-decoration:underline;}
+.goodsList table{border:1px solid #ddd;width:98%;margin:15px auto;border-collapse:collapse;/*单线*/}
+.goodsList table tr th{border:1px solid #ddd; line-height:35px; font-size:14px;}
+.goodsList table tr td{border:1px solid #ddd; line-height:30px; font-size:12px;text-align:center;}
+.goodsList table tr td a{color:#666;}
+.goodsList table tr td.tit{width:250px;}
+.goodsList table tr td.end{height:50px;font-size:16px;line-height:50px;}
+.goodsList table tr td.end span{color:red;}
+
+#UserInfo table tr td.title{font-weight:bold; font-size:14px; background:#eee;}
+
+#sendType table tr td.choose{width:40px;}
+#otherinfo table tr td.bold{font-weight:bold;}
+#otherinfo table tr td select{margin-left:10px;}
+#otherinfo table tr td input.money{border:1px solid #ddd; margin-left:10px;}
+#otherinfo table tr td input.yz{width:80px;height:20px;background:#ff6699;color:#fff;font-size:12px; border-radius:3px;border:0px;}
+
+#allMoney table{border:0px;}
+#allMoney table tr td {text-align:right; border:0px;}
+#allMoney table tr td span{color:red; font-size:14px; padding:0px 10px;}
+#allMoney table tr td input.sub{width:100px;height:40px;text-align:center;color:#fff;background:red;border:0px;border-radius:3px;}
+
+
+
+
+
+/*用户注册和登录*/
+#LoginAndRegister{width:1000px;height:600px;padding-top:80px;margin:30px auto;box-shadow:0px 0px 10px #666;}
+#LoginAndRegister p.tit{width:800px;height:60px;margin:0px auto;}
+#LoginAndRegister p.tit span{display:block;float:left;width:50%;border-bottom:1px solid #ddd;height:58px;line-height:58px;text-align:center;font-size:18px;}
+#LoginAndRegister p.tit span.active{border-bottom:2px solid #6699ff;}
+#LoginAndRegister .Con{width:700px;height:450px;  margin:50px auto 10px;}
+#LoginAndRegister .Con p{font-size:14px;color:#666;margin-bottom:20px;}
+#LoginAndRegister .Con p input.txt{width:300px; height:40px; border:1px solid #ddd; border-radius:3px;}
+#LoginAndRegister .Con p span{width:80px; text-align:right; display:inline-block;}
+#LoginAndRegister .Con p input.but{width:120px;height:40px; background:#ff6699; color:#fff; font-size:14px;
+						border-radius:3px; margin-left:80px;border:0px;}
+#LoginAndRegister .Con p input.but2{background:#ff9900;}
+						border-radius:3px; margin-left:80px;border:0px;}
+#LoginAndRegister .Con p.txt{padding-left:80px;}
+#LoginAndRegister .Con p.txt a{font-size:14px; color:#36A2DC;margin-left:80px;margin-right:10px;}
+#LoginAndRegister .Con .Register{display:none;}
+
+
+
+
+/*收货人信息样式 */
+#sellInfo{width:1200px;height:530px; margin:30px auto; box-shadow:0px 0px 10px #666;}
+#sellInfo h3{height:50px; background:#ccc; font-size:20px; font-weight:100;line-height:50px; text-indent:20px;}
+#sellInfo table{width:90%; margin:30px auto;border-collapse:collapse;}
+#sellInfo table tr td{border-bottom:1px dotted #ddd; height:60px; font-size:14px;}
+#sellInfo table tr td input.txt{width:250px;height:35px; border:1px solid #ddd; border-radius:3px;}
+#sellInfo table tr td.ti{width:100px; text-align:right; padding-right:10px;}
+#sellInfo table tr td select{height:30px; width:150px;}
+#sellInfo table tr td.address{text-align:center;}
+#sellInfo table tr td.address input{width:300px;height:35px; background:#ff6666; color:#fff; font-size:14px;
+				border-radius:3px;}
