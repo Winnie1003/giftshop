@@ -1,0 +1,932 @@
+<!doctype html>
+<html>
+<head>
+ <!--声明当前页面编码集（中文编码<gbk,gb2312>,国际编码<utf-8>）-->
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <!--声明当前页面的三要素-->
+ <title>Ecshop商城开发</title>
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+ <meta name="keywords" content="Ecshop商城开发">
+ <meta name="description" content="一个月打造商城">
+
+ </head>
+
+
+<body>
+<!--调用头部文件-->
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+<!--导航开始,滚动到一定高度，给它加固定-->
+<div id="Nav">
+    <ul>
+        <li class="first"><font class="iconfont">&#xe627;</font>全部商品分类
+              <div class="Menu">
+                <ol>
+                    <li>
+                        <h3>节日礼物</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+                    <li>
+                        <h3>生日礼物</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+                    <li>
+                        <h3>蛋糕</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+                    <li>
+                        <h3>商物礼物</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+                    <li>
+                        <h3>个性定制</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+                    <li>
+                        <h3>鲜花</h3>
+                        <p><a href="#">生日</a>  <a href="#">表白</a> <a href="#">订婚</a> <a href="#">结婚</a></p>
+                        <div class="moreMenu"></div>
+                        <div class="border_top"></div>
+                        <div class="border_bottom"></div>
+                        <div class="border_right"></div>
+                    </li>
+
+
+                </ol>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--导航结束-->
+
+<!--Part1 start-->
+<div id="Part1">
+    <div class="PartCon">
+        <!--flash start-->
+
+        <!--news begin-->
+        <div class="news">
+            <div class="newsOpacity"></div>
+                <div class="newsCon">
+                    <!--tz快讯 开始-->
+                    <div class="newskx">
+                        <h3>资讯快报</h3>
+                        <ul>
+                            <li><a href="" class="first" title="618店庆趴 爆品嗨抢"><font>[ 特惠 ]</font> 618店庆趴 爆品嗨抢</a></li>
+                            <li><a href="" title="“让爱飘香”公益"><font>[ 公告 ]</font>“让爱飘香”公益</a></li>
+                            <li><a href="" title="618商品全场五折"><font>[ 特惠 ]</font> 618商品全场五折</a></li>
+                            <li><a href="" title="618店庆趴 爆品嗨抢"><font>[ 特惠 ]</font> 618店庆趴 爆品嗨抢</a></li>
+                            <li><a href="" title="“让爱飘香”公益"><font>[ 公告 ]</font>“让爱飘香”公益</a></li>
+                        </ul>
+                    </div>
+                    <!--tz快讯 结束-->
+                    <div class="newsKx Datatx">
+
+                            <h3>节日提醒</h3>
+                        <div class="scrollB">
+                            <ul>
+                                <li id="first"><a href="#" title="国庆节选择特别礼物，更多优惠等你来拿">[10.01] 国庆节 <font>进入专题</font></a></li>
+                                <li><a href="" title="[ 8.21 ] 七夕">[ 8.21 ] 七夕 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节 ">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 6.21 ] 父亲节如何选择礼物">[ 6.21 ] 父亲节  <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 8.21 ] 七夕">[ 8.21 ] 七夕 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节 ">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 6.21 ] 父亲节如何选择礼物">[ 6.21 ] 父亲节  <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 8.21 ] 七夕">[ 8.21 ] 七夕 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节 ">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+                                <li><a href="" title="[ 11.11 ] 光棍节">[ 11.11 ] 光棍节 <font>进入专题页</font></a></li>
+
+
+                        </ul>
+                       </div>
+                    <!--滚动条开始-->
+                    <div class="scrollBar">
+                        <div class="scrollBtn"></div>
+                    </div>
+                    <!--滚动条结束-->
+                </div>
+
+            </div>
+        </div>
+        <!--news end-->
+            <div class="flash">
+                <!--左右切换按扭-->
+                <a href="javascript:void(0)" class="prev"></a>
+                <a href="javascript:void(0)" class="next"></a>
+
+                <!--图片滚动部分-->
+                <div class="scroll">
+                    <img src="images/flash1.jpg" width="820" height="419" alt="轮播" style="left:0;" />
+                    <img src="images/flash2.jpg" width="820" height="419" alt="轮播" />
+                    <img src="images/flash3.jpg" width="820" height="419" alt="轮播" />
+                    <img src="images/flash4.jpg" width="820" height="419" alt="轮播" />
+                    <img src="images/flash5.jpg" width="820" height="419" alt="轮播" />
+                    <img src="images/flash6.jpg" width="820" height="419" alt="轮播" />
+                </div>
+
+                <!--滚动按扭部分-->
+                <div class="Btn">
+                    <span class="hover"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+            </div>
+            <!--flash end-->
+
+
+    </div>
+</div>
+<!--Part1 end-->
+<!--main start-->
+
+<div id="Main">
+  <div id="NewProduct" class="LT">
+  <!--title  start-->
+  <div class="title">
+  <span class="new">今日新品</span>
+  <span class="date">每日20:00新品特卖</span>
+  <span class="change">换一批</span>
+  <div class="line"></div>
+  </div>
+  <!--title  end-->
+
+  
+  <!--Product start-->
+  <div class="Product">
+        <div class="imgList" style="display:block;">
+        <dl>
+           <dt class="time1">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+                    <dd><img src="images/cake1.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+                    <dd class="num">共有：<font>2509</font>已购买</dd>
+                </dl>
+            <dl>
+                <dt class="time2">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+                <dd><img src="images/cake2.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+                <dd class="num">共有：<font>2509</font>已购买</dd>
+            </dl>
+            <dl>
+                <dt class="time3">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+                <dd><img src="images/cake3.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+                <dd class="num">共有：<font>2509</font>已购买</dd>
+            </dl>
+            <dl>
+            <dt class="time4">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+            <dd><img src="images/cake4.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+            <dd class="num">共有：<font>2509</font>已购买</dd>
+        </dl>
+
+
+        </div>
+      <div class="imgList">
+          <dl>
+              <dt class="time5">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+              <dd><img src="images/Champagne_rose2.jpg" width="210" height="210" alt="蛋糕"/></dd>
+              <dd class="num">共有：<font>2509</font>已购买</dd>
+          </dl>
+          <dl>
+              <dt class="time6">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+              <dd><img src="images/imgList2.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+              <dd class="num">共有：<font>2509</font>已购买</dd>
+          </dl>
+          <dl>
+              <dt class="time7">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+              <dd><img src="images/imgList3.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+              <dd class="num">共有：<font>2509</font>已购买</dd>
+          </dl>
+          <dl>
+              <dt class="time8">距离结束时间：<font>22</font>天<font>22</font>时<font>22</font>分<font>22</font>秒</dt>
+              <dd><img src="images/imgList4.jpg"  width="210" height="210" alt="蛋糕"/></dd>
+              <dd class="num">共有：<font>2509</font>已购买</dd>
+          </dl>
+      </div>
+  </div>
+  <!--Product  end-->
+  
+  
+  </div>
+
+
+    <!--Flower start-->
+    <div id="Flower" class="LT">
+        <!--flower选项卡标题 开始-->
+        <ul class="flower_nav">
+            <li class="first"><span>白玫瑰</span></li>
+            <li><span>香槟玫瑰</span></li>
+            <li><span>郁金香</span></li>
+            <li><span>康乃馨</span></li>
+            <li><span>蓝色妖姬</span></li>
+            <li class="last hover"><span>百合</span></li>
+            <li class="flower_title">鲜花</li>
+
+        </ul>
+        <div class="FlowerCon">
+            <div class="flowerLeft">
+                <div class="flower_flash">
+                    <img src="images/flower-1.jpg" width="645" height="350" />
+                </div>
+                <!--手风琴布局 开始-->
+                <div class="accordion">
+                    <ul>
+                        <li class="box">
+                            <h3 class="hover">白玫瑰</h3>
+                            <div><img src="images/bg_flower1.gif" width="337" height="161" /></div>
+                        </li>
+                        <li>
+                            <h3>香槟玫瑰</h3>
+                            <div><img src="images/bg_flower2.gif" width="337" height="161" /></div>
+                        </li>
+                        <li>
+                            <h3>郁金香</h3>
+                            <div><img src="images/bg_flower3.gif" width="337" height="161" /></div>
+                        </li>
+                        <li>
+                            <h3>康乃馨</h3>
+                            <div><img src="images/bg_flower4.gif" width="337" height="161" /></div>
+                        </li>
+                        <li>
+                            <h3>蓝色妖姬</h3>
+                            <div><img src="images/bg_flower5.gif" width="337" height="161" /></div>
+                        </li>
+                        <li class="last">
+                            <h3>百合</h3>
+                            <div><img src="images/bg_flower6.gif" width="337" height="161" /></div>
+                        </li>
+                    </ul>
+                </div>
+                <!--手风琴布局 结束-->
+            </div>
+            <!--选项卡内容 开始-->
+            <div class="flowerRight">
+                <div class="flowerComm">
+				     <ul>
+                        <li><a href="#"><img src="images/white_roses1.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses2.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses3.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses4.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses5.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses6.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses7.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses8.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/white_roses9.jpg" width="181" height="170" alt="白玫瑰" /></a>
+                            <p><a href="#">白玫瑰送给你最爱的母亲或长辈</a></p>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="flowerComm">
+				     <ul>
+                        <li><a href="#"><img src="images/Champagne_rose1.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose2.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose3.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose4.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose5.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose6.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose7.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose8.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/Champagne_rose9.jpg" width="181" height="170" alt="香槟玫瑰" /></a>
+                            <p><a href="#">香槟玫瑰送给你爱的人</a></p>
+                        </li>
+                    </ul>
+                   
+                </div>
+                <div class="flowerComm">
+				    <ul>
+                        <li><a href="#"><img src="images/tulip1.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip2.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip3.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip4.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip5.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip6.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip7.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip8.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/tulip9.jpg" width="181" height="170" alt="郁金香" /></a>
+                            <p><a href="#">郁金香送给你爱的人</a></p>
+                        </li>
+                    </ul>
+                   
+                </div>
+                <div class="flowerComm">
+                     <ul>
+                        <li><a href="#"><img src="images/carnation1.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation2.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation3.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation4.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation5.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation6.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation7.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation8.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/carnation9.jpg" width="181" height="170" alt="康乃馨" /></a>
+                            <p><a href="#">康乃馨送给你爱的人</a></p>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="flowerComm">
+                      <ul>
+                        <li><a href="#"><img src="images/blue_enchantress1.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress2.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress3.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress4.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress5.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress6.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress7.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress8.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/blue_enchantress9.jpg" width="181" height="170" alt="蓝色妖姬" /></a>
+                            <p><a href="#">蓝色妖姬送给你爱的人</a></p>
+                        </li>
+                    </ul>  
+                </div>
+                <div class="flowerComm" style="display:block;">
+                    <ul>
+                        <li><a href="#"><img src="images/lily1.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily2.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily3.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily4.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily5.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily6.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily7.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily8.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                        <li><a href="#"><img src="images/lily9.jpg" width="181" height="170" alt="百合" /></a>
+                            <p><a href="#">百合送给你最爱的人</a></p>
+                        </li>
+                    </ul>   
+                </div>
+
+            </div>
+            <!--选项卡内容 结束-->
+        </div>
+  </div>
+
+
+    <!--Flower end-->
+
+    
+
+    <!--cake start-->
+  <div id="Cake" class="LT">
+	<div class="cake_nav">
+	  <span class="cake_title">蛋糕</span>
+	  <div class="cake_line"></div>
+	</div>
+	<div class="cakeCon">
+	  <!--蛋糕展示开始-->
+	  <div class="cake_left">
+	    <ul>
+                	<li><img src="images/cake1.jpg" width="217" height="217" alt="蛋糕" />
+					  <div style="display:none;">
+					    <a href="javascript:void(0)" class="buyUrl"></a>
+					    <h3 class="ti">奶冻式甜点-慕斯蛋糕</h3>
+					    <p class="info">慕斯蛋糕最早出现在美食之都法国巴黎，最初大师们在奶油中加入起稳定作用和改善结构，口感和风味的各种辅料，使之外型、色泽、结构、口味变化丰富，更加自然纯正，冷冻后食用其味无穷，成为蛋糕中的极品。慕斯与布丁一样属于甜点的一种，其性质较布丁更柔软，入口即化。</p>
+					    <p class="type">款式一,款式二,款式三</p>
+					    <p class="cake_money">价格：￥258.00</p>
+					  </div>
+					</li>
+                    <li><a href="javascript:void(0)"><img src="images/cake2.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake3.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake4.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake5.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake6.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake7.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake8.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake9.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><img src="images/cake10.jpg" width="217" height="217" alt="蛋糕" />
+					  <div style="display:none;">
+					    <a href="javascript:void(0)" class="buyUrl"></a>
+					    <h3 class="ti">巧克力布朗尼</h3>
+					    <p class="info">巧克力布朗尼又称为布朗尼、波士顿布朗尼（英文：Chocolate Brownie），是一种小块、甜味、像饼干的巧克力蛋糕，以它富含的巧克力色（brown）而得名。有时会覆上一层乳脂软糖（fudge），或是在蛋糕体重混着核桃一类的干果，和碎块（巧克力、奶油花生、花生奶油或其他）</p>
+					    <p class="type">款式一,款式二,款式三,款式四</p>
+					    <p class="cake_money">价格：￥298.00</p>
+					  </div>
+					</li>
+                    <li><a href="javascript:void(0)"><img src="images/cake11.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    <li><a href="javascript:void(0)"><img src="images/cake12.jpg" width="217" height="217" alt="蛋糕" /></a></li>
+                    
+                    
+         </ul>
+		 <div class="gray"></div>
+
+		 <!--详情开始-->
+         <div class="showCake">
+                	<img src="images/prev.png" class="cake_prev" width="18" height="35" alt="左按钮" />
+                    <img src="images/next.png" class="cake_next" width="18" height="35" alt="右按钮" />
+                    <img src="images/cake2.jpg" class="cake_img" width="275" height="300" />
+                	<div class="productInfo">
+                    	<h3><a href="#" title="元祖蛋糕/情有独钟(8寸)-元祖鲜奶蛋糕">元祖蛋糕/情有独钟(8寸)-元祖鲜奶蛋糕</a></h3>
+                        <p class="choice_style">选择样式：</p>
+                        <div class="cake_choice">
+						  <div class="caketype">
+
+						<!--
+                        <dl class="selected">
+						    <dt><img src="images/cake2.jpg" width="24" height="24" /></dt>
+                            <dd>款式一</dd>
+						</dl>
+                        <dl>
+						    <dt><img src="images/cake2.jpg" width="24" height="24" /></dt>
+                            <dd>款式二</dd>
+						</dl>
+                        <dl>
+						    <dt><img src="images/cake2.jpg" width="24" height="24" /></dt>
+                            <dd>款式三</dd>
+						</dl>
+                        <dl>
+						    <dt><img src="images/cake2.jpg" width="24" height="24" /></dt>
+                            <dd>款式四</dd>
+						</dl>
+                        </dl>
+						-->
+					   </div>
+					 </div>
+                        <p class="profile">商品简介：</p>
+                        <p class="profileCon">在我泡沫的乳香里，环绕着你闪亮的自由，含着单纯的希冀，在沸热的烤箱里，蒸腾着痛楚的激情，你的热吻
+                        ，与我出炉的美丽，不期而遇，闻听到一支插翅的歌儿，在你的爱语中，寻觅圆满的邀约。</p>
+                        <div class="img_button">
+                        	<a href="#"><img class="buy" src="images/buy.png" /></a>
+                            <img class="join" src="images/join.png" />
+                        </div>
+                    </div>
+        </div>
+		 <!--详情结束-->
+	 </div>
+     <!--蛋糕展示结束-->
+
+
+     <!--精品推荐开始-->
+	  <div class="cake_right">
+	    <h3>精品推荐</h3>
+                <dl>
+                    <dt><a href="#"><img src="images/cake11.jpg" width="130" height="130" alt="蛋糕" /></a></dt>
+                    <dd class="dl_title"><a href="#" title="蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层">蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层</a></dd>
+                    <dd class="cake_price">￥199.00</dd>
+                </dl>
+                <dl>
+                    <dt><a href="#"><img src="images/cake5.jpg" width="130" height="130" alt="蛋糕" /></a></dt>
+                    <dd class="dl_title"><a href="#" title="蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层">蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层</a></dd>
+                    <dd class="cake_price">￥199.00</dd>
+                </dl>
+                <dl>
+                    <dt><a href="#"><img src="images/cake10.jpg" width="130" height="130" alt="蛋糕" /></a></dt>
+                    <dd class="dl_title"><a href="#" title="蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层">蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层</a></dd>
+                    <dd class="cake_price">￥199.00</dd>
+                </dl>
+                <dl>
+                    <dt><a href="#"><img src="images/cake9.jpg" width="130" height="130" alt="蛋糕" /></a></dt>
+                    <dd class="dl_title"><a href="#" title="蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层">蛋糕/甜蜜如心(8寸)-元祖鲜奶蛋糕，布丁加水果夹层</a></dd>
+                    <dd class="cake_price">￥199.00</dd>
+                </dl>
+            </div>
+		 <!--精品推荐结束-->
+        </div>
+	  </div>
+
+	
+    <!--cake end-->
+<!--清除cake部分的浮动，cake部分没设定固定的高度，系统默认为0，避免下面的部分会往上移动-->
+<!--<div style="clear:both"></div>-->
+
+  <!--节日礼物开始-->
+  <div class="GiftCon LT" id="Floor_one">
+
+   <div class="GiftNav L">
+     <img src="images/1F.jpg" width="192" height="90" alt="floor_one">
+	 <img src="images/f1_pic.jpg" width="96" height="186" alt="活动" class="Giftshow" />
+	 <ul class="introduct">
+	      <li><a href="#">&lt;元月初一&gt;春节送喜庆</a></li>
+          <li><a href="#">&lt;元月十五&gt;元宵送团圆</a></li>
+          <li><a href="#">&lt;六月一日&gt;六一送童真</a></li>
+          <li><a href="#">&lt;五月初五&gt;端午送思念</a></li>
+	 </ul>
+   </div>
+
+	<div class="GiftFlash L">
+	  <div class="commFlash">
+                <!--flashImg start-->
+                <ul class="flashImg">
+                    <li><img src="images/dg_flash1.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash3.jpg" width="429" height="461" /></li>
+                    <li><img src="images/Champagne_rose2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/imgList3.jpg" width="429" height="461" /></li>
+                </ul>
+                <!--flashImg end-->
+                <!--button start-->
+                <ul class="img_btn">
+                    <li class="hover"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <img class="prev" src="images/prev.png" />
+                <img class="next" src="images/next.png" />
+                <!--button end-->
+            </div>    
+	</div>
+	<div class="GiftList R">
+	    <ul>
+            	<li>
+                	<img src="images/srpic1.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic2.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic3.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic4.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic5.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic6.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+            </ul>
+	</div>
+
+  </div>
+
+ <!--节日礼物结束-->
+
+
+ <!--生日礼物开始-->
+  <div class="GiftCon LT" id="Floor_two">
+     <div class="GiftNav L">
+     <img src="images/2F.jpg" width="192" height="90" alt="floor_one">
+	 <img src="images/f1_pic.jpg" width="96" height="186" alt="活动" class="Giftshow" />
+	 <ul class="introduct">
+	      <li><a href="#">&lt;元月初一&gt;春节送喜庆</a></li>
+          <li><a href="#">&lt;元月十五&gt;元宵送团圆</a></li>
+          <li><a href="#">&lt;六月一日&gt;六一送童真</a></li>
+          <li><a href="#">&lt;五月初五&gt;端午送思念</a></li>
+	 </ul>
+   </div>
+
+	<div class="GiftFlash R">
+	  <div class="commFlash">
+                <!--flashImg start-->
+                <ul class="flashImg">
+                    <li><img src="images/dg_flash1.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash3.jpg" width="429" height="461" /></li>
+                    <li><img src="images/Champagne_rose2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/imgList3.jpg" width="429" height="461" /></li>
+                </ul>
+                <!--flashImg end-->
+                <!--button start-->
+                <ul class="img_btn">
+                    <li class="hover"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <img class="prev" src="images/prev.png" />
+                <img class="next" src="images/next.png" />
+                <!--button end-->
+            </div>    
+	</div>
+	<div class="GiftList L">
+	    <ul>
+            	<li>
+                	<img src="images/srpic1.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic2.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic3.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic4.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic5.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic6.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+            </ul>
+	</div>
+
+	
+	
+
+  </div>
+
+ <!--生日礼物结束-->
+
+ <!--鲜花花束开始-->
+  <div class="GiftCon LT" id="Floor_three">
+
+   <div class="GiftNav L">
+     <img src="images/3F.jpg" width="192" height="90" alt="floor_one">
+	 <img src="images/f1_pic.jpg" width="96" height="186" alt="活动" class="Giftshow" />
+	 <ul class="introduct">
+	      <li><a href="#">&lt;元月初一&gt;春节送喜庆</a></li>
+          <li><a href="#">&lt;元月十五&gt;元宵送团圆</a></li>
+          <li><a href="#">&lt;六月一日&gt;六一送童真</a></li>
+          <li><a href="#">&lt;五月初五&gt;端午送思念</a></li>
+	 </ul>
+   </div>
+
+	<div class="GiftFlash L">
+	  <div class="commFlash">
+                <!--flashImg start-->
+                <ul class="flashImg">
+                    <li><img src="images/dg_flash1.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash3.jpg" width="429" height="461" /></li>
+                    <li><img src="images/Champagne_rose2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/imgList3.jpg" width="429" height="461" /></li>
+                </ul>
+                <!--flashImg end-->
+                <!--button start-->
+                <ul class="img_btn">
+                    <li class="hover"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <img class="prev" src="images/prev.png" />
+                <img class="next" src="images/next.png" />
+                <!--button end-->
+            </div>    
+	</div>
+	<div class="GiftList R">
+	    <ul>
+            	<li>
+                	<img src="images/carnation6.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/Champagne_rose6.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/lily4.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/tulip7.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/white_roses3.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/white_roses7.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+            </ul>
+	</div>
+
+  </div>
+
+ <!--鲜花花束结束-->
+
+
+ <!--商务礼物开始-->
+  <div class="GiftCon LT" id="Floor_four">
+     <div class="GiftNav L">
+     <img src="images/4F.jpg" width="192" height="90" alt="floor_one">
+	 <img src="images/f1_pic.jpg" width="96" height="186" alt="活动" class="Giftshow" />
+	 <ul class="introduct">
+	      <li><a href="#">&lt;元月初一&gt;春节送喜庆</a></li>
+          <li><a href="#">&lt;元月十五&gt;元宵送团圆</a></li>
+          <li><a href="#">&lt;六月一日&gt;六一送童真</a></li>
+          <li><a href="#">&lt;五月初五&gt;端午送思念</a></li>
+	 </ul>
+   </div>
+
+	<div class="GiftFlash R">
+	  <div class="commFlash">
+                <!--flashImg start-->
+                <ul class="flashImg">
+                    <li><img src="images/dg_flash1.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/dg_flash3.jpg" width="429" height="461" /></li>
+                    <li><img src="images/Champagne_rose2.jpg" width="429" height="461" /></li>
+                    <li><img src="images/imgList3.jpg" width="429" height="461" /></li>
+                </ul>
+                <!--flashImg end-->
+                <!--button start-->
+                <ul class="img_btn">
+                    <li class="hover"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <img class="prev" src="images/prev.png" />
+                <img class="next" src="images/next.png" />
+                <!--button end-->
+            </div>    
+	</div>
+	<div class="GiftList L">
+	    <ul>
+            	<li>
+                	<img src="images/srpic1.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic2.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic3.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic4.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic5.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+                <li>
+                	<img src="images/srpic6.jpg" width="180" height="180" />
+                    <a href="#">￥55.00</a>
+                </li>
+            </ul>
+	</div>
+
+	
+	
+
+  </div>
+
+ <!--商务礼物结束-->
+ 
+
+  <!--侧边栏楼梯 stair-->
+    <div id="StairNav">
+    	<ul>
+        	<li>1F <span>新品</span> </li>
+            <li>2F <span>鲜花</span> </li>
+            <li>3F <span>蛋糕</span> </li>
+            <li>4F <span>节日</span> </li>
+            <li>5F <span>生日</span> </li>
+            <li>6F <span>礼品</span> </li>
+            <li>7F <span>商务</span> </li>
+            <li class="Top">Top</li>
+        </ul>
+    </div>
+    <!--侧边栏楼梯 end-->
+
+
+</div>
+<!--main end-->
+
+<div style="clear:both"></div>
+ 
+
+
+
+<!--调用底部文件-->
+ <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem --> 
+ 
+  {* 包含脚本文件 *}
+{insert_scripts files='jquery.js,index.js'}
+
+</body>
+
+</html>

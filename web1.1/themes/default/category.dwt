@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+ <!--声明当前页面编码集（中文编码<gbk,gb2312>,国际编码<utf-8>）-->
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <!--声明当前页面的三要素-->
+ <title>产品推荐页面</title>
+ <link href="themes/default/css/web.css" rel="stylesheet" type="text/css" />
+  <link href="themes/default/style.css" rel="stylesheet" type="text/css" />
+ <meta name="keywords" content="关键词,关键词">
+ <meta name="description" content="">
+
+</head>
+
+<body>
+
+<!--调用头部文件-->
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+
+
+<!--内容页主体开始-->
+ <!--内容推荐开始-->
+ <div id="ProIntro">
+     <div class="ProIntroCon">
+	    <!--热点推荐开始-->
+	    <div class="HotIntro">
+		<img src="images/prointro.jpg" class="hotimg">
+		<div class="hotList">
+        <!-- #BeginLibraryItem "/library/recommend_best.lbi" --><!-- #EndLibraryItem -->
+		   
+		  
+		</div>
+		</div>
+		 <!--热点推荐结束-->
+
+		 <!--促销活动开始-->
+		<div class="newsIntro">
+		<img src="images/commintro.jpg" class="imgNew" />
+		<ul>
+		   <li><a href="">·&nbsp;&nbsp;国际起泡酒节 每天9.9元秒</a></li>
+		   <li><a href="">·&nbsp;&nbsp;暑期狂欢游 美酒买一赠一</a></li>
+		   <li><a href="">·&nbsp;&nbsp;大牌红酒1元秒</a></li>
+		   <li><a href="">·&nbsp;&nbsp;酷爽7月 冰点价低至1折</a></li>
+		   <li><a href="">·&nbsp;&nbsp;买酒送酒柜 比39元更低</a></li>
+		</ul>
+		</div>
+		<!--促销活动结束-->
+	 </div>
+
+
+
+  </div>
+  <!--内容推荐结束-->
+
+
+  <!--面包屑导航开始-->
+  <div class="proLogo">当前位置: 
+	<a href="">首页</a> > <a href="">节日礼物</a> > 
+  </div>
+  <!--面包屑导航结束-->
+
+
+	  
+  <!--礼物综合搜综分类开始-->
+ <!--{if $brands.1 || $price_grade.1 || $filter_attr_list}-->
+  <div id="searchType">
+     <h3>礼物综合搜索</h3>
+     
+     <!--{if $brands.1}-->
+	 <dl>
+	   <dt>{$lang.brand}：</dt>
+	   <dd>
+            <!--{foreach from=$brands item=brand}-->
+                <!-- {if $brand.selected} -->
+                <span style="background:#f53e6d;color:#fff;padding:5px 8px;">{$brand.brand_name}</span>
+                <!-- {else} -->
+                <a href="{$brand.url}">{$brand.brand_name}</a>&nbsp;
+                <!-- {/if} -->
+            <!--{/foreach}-->
+
+       </dd>
+	   <div style="clear:both"></div>
+	 </dl>
+	<!--{/if}-->
+    
+    <!--{if $price_grade.1}-->
+	 <dl>
+		<dt>{$lang.price}：</dt>
+		<dd>
+        <!--{foreach from=$price_grade item=grade}-->
+				<!-- {if $grade.selected} -->
+				<span style="background:#f53e6d;color:#fff;padding:5px 8px;">{$grade.price_range}</span>
+				<!-- {else} -->
+				<a href="{$grade.url}">{$grade.price_range}</a>&nbsp;
+				<!-- {/if} -->
+			<!--{/foreach}-->
+        </dd>
+        <div style="clear:both"></div>
+	 </dl>
+     <!--{/if}-->
+     
+     <!--{foreach from=$filter_attr_list item=filter_attr}-->
+	 <dl>
+		<dt>{$filter_attr.filter_attr_name|escape:html} :</dt>
+		<dd>			
+        <!--{foreach from=$filter_attr.attr_list item=attr}-->
+				<!-- {if $attr.selected} -->
+				<span style="background:#f53e6d;color:#fff;padding:5px 8px;">{$attr.attr_value}</span>
+				<!-- {else} -->
+				<a href="{$attr.url}">{$attr.attr_value}</a>&nbsp;
+				<!-- {/if} -->
+			<!--{/foreach}-->
+        </dd>
+		<div style="clear:both"></div>
+	 </dl>
+     <!--{/foreach}-->
+  </div>
+ <!--{/if}-->
+  <!--礼物综合搜综分类结束-->
+  
+  <!--商品展示列表-->
+  <!-- #BeginLibraryItem "/library/goods_list.lbi" --><!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
+
+
+
+
+<!--内容页主体结束-->
+
+
+<!--调用底部文件-->
+ <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem --> 
+ 
+  {* 包含脚本文件 *}
+{insert_scripts files='common.js,compare.js'}
+{insert_scripts files='jquery.js,index.js'}
+{insert_scripts files='transport.js'}
+</body>
+
+</html>
