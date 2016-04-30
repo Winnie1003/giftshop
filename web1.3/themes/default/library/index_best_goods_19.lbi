@@ -1,0 +1,15 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+    <ul style="display:block;">
+        <!--{foreach from=$index_best_goods_19 item=goods}-->   
+				    <li>
+					    <a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" border="0" width="200" height="200" /></a> 
+					    <p><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_name|escape:html}</a>
+                           <!-- {if $goods.promote_price neq ""} -->    
+    					   <span>{$goods.promote_price}</span>        <!-- {else}-->    
+              			   <span>{$goods.shop_price}</span>    
+     					   <!--{/if}-->     
+                        </p>
+					</li>
+       <!--{/foreach}--> 
+	</ul>

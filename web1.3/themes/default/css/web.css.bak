@@ -1,0 +1,371 @@
+
+body{background:#fff;font:14px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;}
+body{overflow-x:hidden;}
+/*会员余额*/
+.inputBg4 a{text-decoration:none; color:#666;}
+
+/*我的收藏*/
+.boxCenterList .user_info tr .inputBg2{margin-right:10px;}
+
+/*收货地址*/
+.boxCenterList .user_info tr .inputBg1{margin-right:47px;}
+
+
+/*用户中心 我的订单 css样式*/
+.user_info .f6,.user_info font.f6 a{color:#FF0000;}
+.boxCenterList span.f6{font-size:16px; padding-left:10px; padding: 5px 54px;}
+
+
+
+/*用户中心 用户信息 css样式*/
+.boxCenterList h5{font-size:22px; color:#666;}
+.boxCenterList .user_info tr{height:60px; font-size:16px; color:#666;}
+.boxCenterList .user_info tr select{width:174px; height:25px; border-radius:5px; border:0; box-shadow:0 0 5px #999; margin-right:10px;}
+.boxCenterList .user_info tr td{text-align:center;}
+.boxCenterList .user_info tr td .bnt_blue_1 {padding:10px 20px; border-radius:5px; background:#ddd; color:#666; font-weight:bold; border:0;}
+.boxCenterList .user_info tr .inputBg{width:300px; height:30px; text-align:center; border-radius:5px; border:0; box-shadow:0 0 5px #999;}
+
+/*用户中心 欢迎页 css样式*/
+.userCenterBox .user_Center{text-align:center; line-height: 40px; padding-bottom: 30px;}
+.userMenu{text-align:center;}
+.userMenu a{border:1px solid #ddd; padding:3px 5px; color:#666; text-decoration:none; border-radius:3px;}
+
+.AreaR .box_1 a{text-decoration:none; }
+.AreaL{padding-bottom:30px;}
+.AreaR .f_l,.AreaR .f_r{text-align:center;margin:0 auto;}
+.AreaR .f_l a,.AreaR .f_r a{text-decoration:none; font-size:20px;}
+.AreaR .f_l h5,.AreaR .f_r h5{font-size:14px;}
+
+
+/*密码找回 css样式*/
+.usBox_2{font-family:"微软雅黑"; font-size:12px;}
+.usBox_2 tr{line-height:30px;}
+.usBox_2 tr td{font-family: "微软雅黑";}
+.usBox_2 tr:nth-of-type(1) td{padding-right:27px;}
+.usBox_2 .inputBg{width:300px; height:25px; border:1px solid #ddd; border-radius:3px;}
+.usBox_2 .bnt_blue,.usBox_2 .bnt_blue_1{padding:5px 10px; border-radius:3px; background:#ddd; color:#797979;}
+	
+
+/*条件排序 css样式*/
+#productList .a{border:1px solid #B9B9B9; display:inline-block;font-size:10px; color:#fff;text-decoration:none;background:#C9C9C9; font-family:"微软雅黑";border-radius:100px; width:88px; height:24px;
+line-height:24px;}
+#productList .a1{width:64px;}
+#productList .a:hover{background:#F53E6D;}
+#productList a.active{background:#F53E6D;}
+
+
+/*分页 css样式*/
+#pager{width:1200px; margin:20px auto; font-size:12px;}
+#pager .f_l b{font-size:14px;}
+#pager span.page_now{padding:5px;font-weight:bold;color:#fff;background:#ff3399;}
+#pager a{text-decoration:none; border:1px solid #ddd; padding:3px 5px; color:#000;}
+#pager a:hover{color:#ff3399;}
+
+
+/*内页内容css样式*/
+#webIntro{width:100%;height:170px;background:#f1f1f1;}
+#webIntro .webIntroCon{width:1200px;height:170px;margin:0px auto;}
+#webIntro .webIntroCon .hotIntro{width:950PX;height:170px;float:left;}
+#webIntro .webIntroCon .newIntro{width:208px;height:170px;float:right;}
+
+#webIntro .webIntroCon .hotIntro .hotList{width:900px;height:170px;float:right;position:relative;}
+#webIntro .webIntroCon .hotIntro .hotList dl{width:246px;height:115px;background:#fff;margin:18px 10px 0;padding:10px;box-shadow:1px 1px 3px #ddd;float:left;}
+#webIntro .webIntroCon .hotIntro .hotList dl dt{width:110px;height:96px;float:left;padding-top:1px;}
+#webIntro .webIntroCon .hotIntro .hotList dl dt a:hover{width:110px;height:100px;display:block;border:1px solid #f42760;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd{width:130px;float:right;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd{font-size:12px;color:#666;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd.money font{color:#f53e6d;font-size:18px;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd.money{margin:15px 0px;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd a{color:#666;}
+#webIntro .webIntroCon .hotIntro .hotList dl dd.buy a{width:75px;height:23px;background:#f5f5f5;display:block;border:1px solide #6e6e6;border-radius:2px;text-align:center;line-height:23px;color:#797979;}
+
+#webIntro .webIntroCon .hotIntro img.hotImg{float:left;position:absolute;left:43px;}
+
+#webIntro .webIntroCon .newIntro img.newImg{float:left;}
+#webIntro .webIntroCon .newIntro ul{width:165px;height:170px;float:right;padding-top:10px;}
+#webIntro .webIntroCon .newIntro ul li{line-height:27px;display:block;color:#929292;font-size:12px;}
+#webIntro .webIntroCon .newIntro ul li a{color:#929292;}
+#webIntro .webIntroCon .newIntro ul li a:hover{color:#f42760;}
+
+
+/*面包屑导航样式*/
+#WebLogo{width:1200px;height:55px;line-height:55px;margin:0px auto;border-bottom:1px solid #ddd;font-size:14px;color:#333;}
+#WebLogo a{color:#333;font-size:14px;}
+#WebLogo a:hover{color:#f53e6d;}
+
+
+/*礼物类型搜索样式*/
+#TypeSearch{width:1200px;border:1px solid #ddd;margin:30px auto;}
+#TypeSearch h3{background:#f5f5f5;height:40px;border-bottom:1px solid #ddd;line-height:40px;text-indent:20px;font-weight:100;}
+#TypeSearch dl{width:95%;margin:10px auto;border-bottom:1px dotted #ddd;}
+#TypeSearch dl dt{width:10%;float:left;line-height:40px;font-size:14px;color:#666;font-weight:bold;}
+#TypeSearch dl dd{width:85%;float:right;font-size:12px;line-height:40px;}
+#TypeSearch dl dd a{display:inline-block;color:#666;margin:0px 5px;line-height:20px;padding:4px 7px;}
+#TypeSearch dl dd a:hover{background:#f53e6d;color:#fff;}
+#TypeSearch dl dd a.all{background:#f53e6d;color:#fff;}
+
+
+/*礼品展示部分css样式*/
+#productList{width:1200px;margin:0px auto;}
+#productList .ti{height:40px;background:#f5f5f5;line-height:40px;text-indent:20px;}
+#productList ul li{width:210px;height:310px;border:1px solid #f5f5f5;margin:10px 13px;float:left;box-shadow:0px 2px 5px #ddd;text-align:center;}
+#productList ul li h3{font-weight:100;font-size:16px;}
+#productList ul li h3 a{color:#333;}
+#productList ul li p{width:160px;height:25px;margin:10px auto;font-size:12px;line-height:25px;}
+#productList ul li p span{float:left;width:80px;height:25px;background:#626262;color:#fff;text-align:center;display:inline-block;}
+#productList ul li p a{width:80px;height:25px;background:#ed145b;color:#fff;font-size:12px;text-align:center;display:inline-block;}
+#productList ul li p font{color:#f53e6d;}
+
+
+/*内页css样式*/
+#webCon{width:1200px;margin:30px auto;}
+#webCon .web_productImg{width:450px;height:540px;float:left;position:relative;}
+#webCon .web_productXq{width:690px;float:right;}
+#webCon .web_productXq h1{font-size:20px;line-height:60px;}
+#webCon .web_productXq p{font-size:14px;color:#000;line-height:35px;display:inline-block;margin-right:120px;}
+#webCon .web_productXq .yh{width:433px; background:#F7F7F7;margin:15px 0;padding: 5px 15px;}
+#webCon .web_productXq .yh .yh1 span{border:0; font-weight:bold;}
+#webCon .web_productXq .yh .yh2 span font{color:#FF3366;}
+#webCon .web_productXq .yh .yh2 span{border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
+#webCon .web_productXq .yh .yh3{border-top:1px solid #ddd; border-left:1px solid #ddd;}
+#webCon .web_productXq .yh p{display:block; line-height:0;margin:0;}
+#webCon .web_productXq .yh p span{height:30px; display:inline-block; text-align:center;
+                                line-height:20px; width:215px; line-height:30px;}
+#webCon .web_productXq .yh p span.on{border-top:0;}
+#webCon .web_productXq .yh h3{margin-bottom:10px;border-bottom:1px solid #ddd;line-height:35px; height:35px;}
+#webCon .web_productXq li.bor{background:#F7F7F7;margin:5px 0;}
+#webCon .web_productXq li.bor p{padding:3px 0 3px 10px;}
+#webCon .web_productXq li.bor p font{color:#666; border:1px solid #666; padding:3px 5px;}
+#webCon .web_productXq font{color:#000;}
+#webCon .web_productXq font.f1{font-size:22px;}
+#webCon .web_productXq i{float:right; margin-right:25px; margin-top: 5px;}
+#webCon .web_productXq p a.jf{float:right;color:#000;}
+#webCon .web_productXq p .num{width:40px;height:20px;border:1px solid #ddd;}
+#webCon .web_productXq p.but{margin-top:3px;}
+#webCon .web_productXq p.but img{margin-right:20px;}
+
+
+/*左侧放大镜css样式*/
+#webCon .web_productImg .s_Img{width:450px;height:450px;position:relative;}
+#webCon .web_productImg .q_Img{width:450px;height:80px;position:absolute;bottom:0;}
+#webCon .web_productImg .b_Img{width:450px;height:450px;background:blue;position:absolute;right:-460px;top:0;overflow:hidden;display:none;}
+
+#webCon .web_productImg .q_Img img{float:left;margin-right:10px;}
+#webCon .web_productImg .q_Img img.active{border:2px solid #FF4400;}
+#webCon .web_productImg .q_Img img{display:block;}
+
+#webCon .web_productImg .s_Img span.shadow{width:450px;height:450px;;display:block;position:absolute;top:0;left:0;filter:alpha(opacity=0.5);-moz-opacity:0.5;opacity:0.5;}
+#webCon .web_productImg .s_Img span.fk{width:200px;height:200px;background:#3D6ECE;filter:alpha(opacity=0.5);-moz-opacity:0.5;opacity:0.5;display:block;position:absolute;top:1px;left:10px;display:none;}
+
+#webCon .web_productImg .b_Img img{position:absolute;}
+
+/*推荐产品css样式*/
+#IntroProduct{width:1200px;height:370px;margin:0px auto;border:1px solid #ddd;}
+#IntroProduct p.ti{border-bottom:1px solid #ddd;text-indent:20px;color:#f53e6d;
+                font-size:18px;margin-bottom:20px;}
+#IntroProduct ul li{width:220px;float:left; margin:0px 34px;box-shadow:0px 1px 2px #ddd;
+                    padding:5px;}
+#IntroProduct p{line-height:30px;color:#666;font-size:14px;}
+#IntroProduct ul li p.money font{color:#f53e6d; font-weight:bold;}
+#IntroProduct ul li p.money span{float:right;}
+
+
+/*商品详情css样式*/
+#ProductInfo{width:1200px;margin:50px auto;}
+#ProductInfo ul.sel{height:50px;background:#f7f7f7;border-bottom:1px solid #999;}
+#ProductInfo ul.sel li{height:50px;width:120px;position:relative;font-size:14px;float:left;line-height:50px;text-align:center;}
+#ProductInfo ul.sel li span{width:100%;height:1px;background:#f7f7f7;position:absolute;left:0;bottom:-1px;display:none;}
+#ProductInfo ul.sel li.active{border:1px solid #999;border-top:2px solid #999;border-bottom:0;height:48px;line-height:48px;}
+#ProductInfo ul.sel li.active span{display:block;}
+#ProductInfo .productSelect .selcon{width:100%;min-height:500px;margin-top:30px;display:none;}
+#ProductInfo .productSelect div.active{display:block;}
+
+/*商城底部css样式*/
+img.fbg{margin:30px auto;display:block;}
+#Footer2{width:1200px;margin:0 auto;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:25px 0;}
+#Footer2 dl{width:100px;float:left;padding-left:50px;font-size:12px;font-family:"宋体";}
+#Footer2 dl dt{color:#000;font-family:"宋体";}
+#Footer2 dl dd{color:#666;line-height:30px;font-family:"宋体";}
+#Footer2 dl.first{border-right:1px solid #ddd;}
+#Footer2 dl.last{width:200px;border-left:1px solid #ddd;padding-left:60px;}
+#Footer2 dl.last dt{font-size:18px;color:#666;}
+#Footer2 dl.last dd{font-size:22px;color:#666;}
+#Footer2 dl.last dd.zxOnline{padding-top:8px;}
+
+p.copy{font-size:12px;line-height:45px;color:#666;text-align:center;border-bottom:1px solid #ddd;}
+
+
+/*提交订单css样式*/
+#dd_address{width:1198px;height:100px;margin:30px auto;background:#ddd;border:1px solid #ccc;border-radius:5px;}
+#dd_address ul{width:1000px;height:40px;margin:30px auto 0;}
+#dd_address ul li{width:398px;height:40px;line-height:40px;float:left;position:relative;}
+#dd_address ul li span{display:block;float:left;}
+#dd_address ul li span.btn{width:36px;height:36px;border-radius:20px;border:2px solid #666666;
+                        line-height:36px;text-align:center;font-size:18px;color:#4B0000;}
+#dd_address ul li span.line{width:292px;height:3px;background:#666666;position:absolute;right:0;top:19px;}
+#dd_address ul li span.line2{width:250px;}
+#dd_address ul li.last{width:190px;}
+#dd_address ul li span.btn_active{color:#FF3399;background:#FFCCFF;border:2px solid #FF3399;}
+#dd_address ul li span.txt_active{color:#FF3399;}
+#dd_address ul li span.line_active1{background: -webkit-gradient(linear,left center,right center,from(#ff3399), to(#666));}
+#dd_address ul li span.line_active2{background:#FF3399;}
+
+/*订单列表css样式*/
+#dd_list{width:1198px;margin:30px auto;border-radius:5px;}
+#dd_list ul.ti{height:40px;border:1px solid #ccc;background:#EEEEEE;}
+#dd_list ul.ti li{float:left;line-height:40px;height:40px;font-size:16px;
+                text-align:center;width:140px;}
+#dd_list ul.ti li.first{padding-right:80px;width:220px;}
+
+#dd_list ul.List{border-bottom:1px dotted #ddd; height:200px;}
+#dd_list ul.List li{float:left;width:140px;text-align:center;height:156px;line-height:30px;padding-top:20px;}
+#dd_list ul.List li.first{padding-right:80px;width:220px;line-height:25px;}
+#dd_list ul.List li .inputBg{width:30px;height:30px;border:1px solid #ddd;text-align:center;}
+#dd_list ul.List li.last a{color:#FF0000;text-decoration:underLine;}
+
+
+/*订单结算部分css样式*/
+#dd_end{width:1168px;border:1px solid #ccc;margin:30px auto;line-height:70px;padding: 20px 0 20px 30px; }
+#dd_end font{font-size:18px;color:#ff3399;}
+#dd_end .bnt_blue_1{float:right;width:100px;height:35px;background:#ff3366;color:#fff;border-radius:2px;border:0;margin:17px 10px 17px 0px;}
+#dd_end p{padding:bottom:10px;}
+#dd_end a{display:inline-block;}
+#dd_end .go{float:left;}
+#dd_end .end{float:right;margin-right:10px;}
+
+
+/*商品列表css样式*/
+.goodsList{width:1198px;border:1px solid #ddd;margin:30px auto;}
+.goodsList h3{background:#ddd;line-height:35px;font-size:14px;font-weight:100;padding:0 10px 0 20px;}
+.goodsList h3 a{float:right;color:#FF0000;}
+.goodsList h3 a:hover{text-decoration:underLine;}
+.goodsList table{border-collapse: collapse;border:1px solid #ccc;margin:15px auto;line-height:35px;width:98%;}
+.goodsList table th{border:1px solid #ccc;}
+.goodsList table td{border:1px solid #ccc;text-align:center;font-size:12px;}
+.goodsList table td.ti{width:250px;}
+.goodsList table td.end{line-height:50px;height:50px;font-size:16px;}
+.goodsList table td.end font{color:#FF0000;}
+.goodsList table td a{color:#666;}
+
+#UserInfo table td.title{font-weight:bold;font-size:14px;background:#eee;}
+
+#payType table td.ti{width:750px;}
+#payType table td.tr{width:45px;}
+
+#otherType a.hb{width:80px;height:20px;background:#FF6699;color:#fff;border:1px solid #FF6699;
+                border-radius:5px;line-height:20px;text-align:center;}
+#otherType .area{width:800px;height:100px;border:1px solid #ddd;margin:15px 0;}
+#otherType table td.title{font-weight:bold;}
+
+#allMoney table{border:0;}
+#allMoney td{text-align:right;border:0;}
+#allMoney td font{color:#FF0000;}
+#allMoney td a.tj{width:100px;height:40px;background:#FF0000;color:#fff;line-height:40px;text-align:center;}
+
+
+/*收货人信息css样式*/
+#LgAndReg{width:1200px;box-shadow:0 0 3px #666;margin:30px auto;
+        background:rgba(255,255,255,0.8);padding-bottom:1px;}
+#LgAndReg p.ti{background:#CCCCCC;padding-left:20px;font-size:25px;
+            height:50px;line-height:50px;}
+#LgAndReg table{margin:49px auto 119px;border-collapse:collapse;width:1100px;height:400px;}
+#LgAndReg table tr td{border-bottom:1px solid #ddd;line-height:40px;height:40px;}
+#LgAndReg table tr td.ti{text-align:right;width:100px;padding-right:20px;}
+#LgAndReg table tr td.end{text-align:center;}
+#LgAndReg table tr td .txt{width:250px;height:35px;border:1px solid #DDDDDD;border-radius:3px;}
+#LgAndReg table tr td font{font-size:16px;}
+#LgAndReg table tr select{width:150px;height:30px;margin-right:20px;}
+#LgAndReg table tr .btn_blue{width:300px;height:35px;background:#FF6666;color:#fff;
+                            border:1px solid #FF6666;border-radius:3px;}
+
+
+/*登录注册界面css样式*/
+#LoginAndRegister{width:1000px;margin:30px auto;background:rgba(255,255,255,0.8);
+                box-shadow:0 0 10px #666;padding-top:80px;}
+#LoginAndRegister .ti{margin:0 auto;width:800px;height:60px;}
+#LoginAndRegister .ti ul li{width:49%;text-align:center;line-height:60px;
+                        border-bottom:1px solid #ddd;font-size:18px;float:left;}
+#LoginAndRegister .ti ul li.hover{border-bottom:2px solid #6699FF;}
+
+#LoginAndRegister .LogReg .Login{margin:70px auto 10px;width:700px;height:450px;}
+#LoginAndRegister .LogReg .Login p{text-align:left;margin-bottom:30px;font-size:14px;color:#666;}
+#LoginAndRegister .LogReg .Login p .txt{width:300px;height:40px;border:1px solid #ddd;border-radius:3px;}
+#LoginAndRegister .LogReg .Login p .sub{width:120px;height:40px;color:#fff;text-align:center;line-height:40px;font-size:14px;
+                                    font-weight:bold;margin-right:96px;border-radius:3px;}
+#LoginAndRegister .LogReg .Login p .sub1{background:#FF6699;border:1px solid #FF6699;}
+#LoginAndRegister .LogReg .Login p .sub2{background:#FF9900;border:1px solid #FF9900;}
+#LoginAndRegister .LogReg .Login p a{color:#6699FF;margin:0 85px 0 29px;}
+#LoginAndRegister .LogReg .Login p{padding-left:140px;}
+#LoginAndRegister .LogReg .Login p.mm{padding-left:153px;}
+#LoginAndRegister .LogReg .Login p.nn{margin-left:-5px;}
+#LoginAndRegister .LogReg .Login p.bc{padding-left:188px;margin-bottom:15px;}
+#LoginAndRegister .LogReg .Login p.dg{padding-left:170px;margin-bottom:15px;}
+
+#LoginAndRegister .LogReg .Register{margin:70px auto 10px;width:700px;height:450px;display:none;}
+#LoginAndRegister .LogReg .Register p{text-align:left;margin-bottom:30px;font-size:14px;color:#666;}
+#LoginAndRegister .LogReg .Register p .txt{width:300px;height:40px;border:1px solid #ddd;border-radius:3px;}
+#LoginAndRegister .LogReg .Register p{padding-left:106px;}
+#LoginAndRegister .LogReg .Register p.mm{padding-left:120px;}
+#LoginAndRegister .LogReg .Register p.end{padding-left:92px;}
+#LoginAndRegister .LogReg .Register p .but{width:120px;height:40px;border:1px solid #FF6699;background:#FF6699;color:#fff;font-weight:bold;text-align:center;line-height:40px;border-radius:3px;margin-right:100px;font-size:14px;}
+#LoginAndRegister .LogReg .Register p.eend{padding-left:147px;}
+
+
+/*乐蜂登录css样式*/
+.lefeng{position:fixed; width:100%; height:100%; background:#FBE1D4;}
+.lefeng .bg{width:1000px; height:634px; position: absolute; top: -30px;
+        left: 170px;}
+.lefeng .feng_Login{width:400px; height:508px; background:#fff; border-radius:5px;
+                box-shadow:0 0 10px #ddd; position:absolute; top:80px; right:205px; padding-top: 10px;}
+.lefeng .feng_Login ul{width:300px; height:400px; margin:20px auto;}
+.lefeng .feng_Login ul li{line-height:20px;}
+.lefeng .feng_Login ul li .txt{width:289px; height:25px; line-height:25px; padding-left:5px;}
+.lefeng .feng_Login ul li p{font-weight:bold; padding-bottom:3px;} 
+
+.lefeng .feng_Login ul li:nth-of-type(1){margin-bottom:50px;}
+.lefeng .feng_Login ul li:nth-of-type(1) h1{font-weight:100; font-size:24px; float:left;}
+.lefeng .feng_Login ul li:nth-of-type(1) a{float:right; color:#19B6CD;}
+
+.lefeng .feng_Login ul li:nth-of-type(2){margin-bottom:15px;}
+
+
+.lefeng .feng_Login ul li:nth-of-type(3) a{float:right; color:#19B6CD; font-weight:100; font-size:12px;}
+
+.lefeng .feng_Login ul li:nth-of-type(5) p .us_Submit{ text-align:center; line-height:37px; 
+                                        color:#fff; font-size:14px; background:url("../images/lefeng.jpg") no-repeat 0px -265px;
+										border-radius:5px;}
+.lefeng .feng_Login ul li:nth-of-type(5) p .us_Submit{height:37px; width:300px; display:block; color:#fff;border:0;}
+
+
+
+/*乐峰注册css样式*/
+#lefeng_Reg{position:fixed; width:100%; height:100%; background:#FBE1D4;}
+#lefeng_Reg .bg{width:1000px; height:634px; position: absolute; top: -30px;
+        left: 170px;}
+#lefeng_Reg .feng_Login{width:400px; height:580px; background:#fff; border-radius:5px;
+                box-shadow:0 0 5px #ddd; position:absolute; top:60px; right:205px;}
+#lefeng_Reg .feng_Login ul{width:300px; height:400px; margin:20px auto;}
+#lefeng_Reg .feng_Login ul li{line-height:20px;}
+#lefeng_Reg .feng_Login ul li .txt{width:289px; height:25px; line-height:25px; padding-left:5px;}
+#lefeng_Reg .feng_Login ul li .txt1{width:150px; height:25px; line-height:25px; padding-left:5px;}
+#lefeng_Reg .feng_Login ul li p{font-weight:bold; padding-bottom:3px;} 
+
+#lefeng_Reg .feng_Login ul li:nth-of-type(1){margin-bottom:10px;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(1) h1{font-weight:100; font-size:24px; float:left;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(1) span{float:right;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(1) a{color:#19B6CD;}
+
+#lefeng_Reg .feng_Login ul li:nth-of-type(2){margin-bottom:5px;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(2) a{float:right; color:#19B6CD; font-weight:100;}
+
+
+#lefeng_Reg .feng_Login ul li:nth-of-type(3) a{float:right; color:#19B6CD; font-weight:100; font-size:12px;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(3){padding-bottom:5px;}
+
+#lefeng_Reg .feng_Login ul li:nth-of-type(6){padding-bottom:20px;}
+
+#lefeng_Reg .feng_Login ul li:nth-of-type(8) .us_Submit_reg{ text-align:center; line-height:37px; 
+                                        color:#fff; font-size:14px; background:url("../images/lefeng.jpg") no-repeat 0px -265px;
+										border-radius:5px; border:0;}
+#lefeng_Reg .feng_Login ul li:nth-of-type(8) .us_Submit_reg{color:#fff; width:300px; margin-top:20px;}
+
